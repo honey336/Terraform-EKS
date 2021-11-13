@@ -17,10 +17,10 @@ variable "availability_zones" {
   default = ["us-east-1a", "us-east-1b"]
 }
 variable "ubuntuami" {
-  default = "ami-08353a25e80beea3e"
+  default = "ami-0528007a60177dd84"
 }
 variable "redhatami" {
-  default = "ami-008a8487adc2b32ec"
+  default = "ami-01fc429821bf1f4b4"
 }
 variable "key_name" {
   default = "terraform-N.virginia"
